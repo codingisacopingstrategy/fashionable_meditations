@@ -20,9 +20,11 @@ If you want to host your own copy, you need an API key. Make a developer’s acc
 Contribute
 ----------
 
-If you want to contribute changes or extensions to the project, you can send me a patch.  That would be wholly awesome. If you are proficient with the Git versioning program, you can also fork this repository and send me a pul request.
+If you want to contribute changes or extensions to the project, you can send me a patch.  That would be wholly awesome. If you are proficient with the Git versioning program, you can also fork this repository and send me a pull request.
 
 Licence
+-------
+
 The rest of the code is licensed under the 2-Clause BSD License, as is the included Facebook code.
 
 Copyright (c) 2010 Eric Schrijver.
