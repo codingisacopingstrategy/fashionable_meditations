@@ -10,7 +10,7 @@ $appapikey = '';
 $appsecret = '';
 $facebook = new Facebook($appapikey, $appsecret);
 
-$user_id = $facebook->require_login($required_permissions = 'publish_stream');
+$user_id = $facebook->require_login();
 ?>
 <style>
 
@@ -68,6 +68,7 @@ h1 {
 </style>
 <?php
 if($_GET['publish']) {
+$user = $facebook->require_login($required_permissions = 'publish_stream');
 $status = $corpus[rand(0,16)];
 $facebook->api_client->stream_publish($status);
 ?>
