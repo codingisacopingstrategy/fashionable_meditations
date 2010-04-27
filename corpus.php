@@ -1,4 +1,8 @@
 <?php
+// 
+// Application: Fashionable meditations
+// File: 'corpus.php' 
+
 $corpus = array('At times I feel like I understand everything. It is surprising how little good that does in itself. I become enclosed in my self: truth is smaller than reality.',
 'Understanding is like a drug.',
 'I want to show my desire for awesomeness. ',
@@ -16,3 +20,10 @@ $corpus = array('At times I feel like I understand everything. It is surprising 
 'Attempted to analyse my desire for awesomeness and got completely caught up in substantiating it.',
 'Found awesomeness to be the modern day equivalent of the sublime.',
 'Charting and modeling the mental mechanisms of meaning.');
+
+/*
+fashionablemeditations/corpus.php is Copyright (c) 2010 Eric Schrijver.
+
+All Rights Reserved. Redistribution of this file is permitted in 
+unmodified form.
+*/
