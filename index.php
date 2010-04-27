@@ -15,7 +15,7 @@ $user_id = $facebook->require_login();
 <style>
 
 p {
-    font-family: Georgia;
+    font-family: Georgia, Gentium, sans-serif;
     font-size: 16px;
     line-height: 22px;
     width: 420px;
@@ -30,17 +30,12 @@ a:hover{
     text-decoration:underline;
 }
 a#generate {
-//    background-color: #fac8dc;
-//    border: 1px solid #fd297e;
-    -moz-border-radius: 9px;
-    -webkit-border-radius: 9px;
     display: block;
     padding: 10px;
     width: 372px;
     margin: 0px 12px;
     font-size: 24px;
     text-align: center;
-    font-family: georgia; /* helvetica, arial, free sans, sans-serif */
     font-weight: 700;
 }
 
